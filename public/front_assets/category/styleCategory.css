@@ -1,0 +1,33 @@
+
+.choosebrand{
+    background-color: #fafafa;
+    border-radius: 10px;
+}
+.brandtitle{
+    font-size: 20px;
+    font-weight: bold;
+}
+.products{
+    min-height: 400px;
+    border-radius: 15px;
+}
+.imagecategory{
+    height: 180px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.card-text{
+    height:50px;
+    overflow: hidden;
+}
+.showmorebutton{
+    cursor: pointer;
+    font-weight: bold;
+}
+.showmorebutton:hover{
+    color: #007bff;
+}
+a:hover{
+    text-decoration: none;
+}

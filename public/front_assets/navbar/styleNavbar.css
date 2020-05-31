@@ -1,0 +1,43 @@
+body{
+    font-family: Nunito, sans-serif;
+}
+@media (max-width: 575px){
+    .searchform{
+        width: 75%;
+    }
+}
+@media (min-width: 992px){
+    .searchfullform{
+        position: absolute;right: 10px;
+    }
+    .nv2{
+        position: absolute;
+        left:10px;
+    }
+}
+.profilehref{
+    font-style: normal;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.15em;
+
+    color: #000000;
+}
+.profilehref:hover{
+    text-decoration: none;
+}
+.profilehref:focus{
+    background-color: #fafafa!important;
+    outline:none!important;
+    padding:5px;
+    border-radius: 10px;
+}
+.shopcart{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(255, 187, 187));
+    border-top-right-radius: 7px;
+    padding: 0;
+    border-bottom-right-radius: 5px;
+}
+.shopcart2{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(255, 187, 187));
+}

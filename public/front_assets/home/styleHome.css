@@ -1,0 +1,184 @@
+
+body{
+    font-family: Nunito, sans-serif;
+}
+hr{
+    border: 0;
+    clear:both;
+    width: 30%;               
+    background-color:black;
+    height: 1px;
+}
+.home_toptext{
+    font-style: normal;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 49px;
+
+    color: #3E3F43;
+}
+.home_bottomtext{
+    font-style: normal;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 98px;
+
+    color: #313235;
+
+}
+.containerhome{
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.aboutUs_lefttext{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    margin-left:5%;
+}
+.aboutUs_righttext{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    text-align: right;
+    margin-right:5%;
+
+    color: rgba(34, 34, 34, 0.1);
+}
+.aboutUs_toptext{
+    font-style: normal;
+    font-size: 36px;
+    line-height: 49px;
+
+    color: #3E3F43;
+}
+.aboutUs_bottomtext{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+}
+.aboutUs2_toptext{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+
+    color: #000000;
+}
+.aboutUs2_bottomtext{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #000000;
+
+}
+@media (max-width: 990px){
+    .btnshopnow{
+        width: 100%;
+        margin-right: 0 !important;
+        margin-top: 5% !important;
+    }
+    .p-5{
+        padding:0!important;
+    }
+    .aboutUs_lefttext{
+        font-size: 30px;
+    }
+    .aboutUs_righttext{
+        font-size: 35px;
+    }
+    .home_bottomtext{
+        line-height: 70px;
+        font-size: 50px;
+    }
+}
+.design1{
+    position: absolute;
+    width: 370px;
+    height: 800px;
+    right:0;
+    border-bottom-left-radius: 100px;
+    top: 0px;
+
+    background: linear-gradient(180deg, #ACBEFF 0%, rgba(172, 190, 255, 0) 100%);
+}
+.design2{
+    position: absolute;
+    width: 278px;
+    height: 388px;
+    left: 117px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    top: 873px;
+
+    background: linear-gradient(89.48deg, #B8C7FF 4.43%, rgba(214, 222, 255, 0.583333) 49.25%, rgba(255, 255, 255, 0) 257.53%);
+}
+.products{
+    /* width: 280px; */
+    min-height: 400px;
+    /* margin-left:4.17%;
+    margin-right:4.16%; */
+    /* border-top-right-radius: 100px; */
+    /* border-bottom-left-radius: 100px; */
+    background: #F9BDBD;
+    /* padding:5%; */
+    border-radius: 15px;
+}
+.producttext{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+
+    color: #3E3F43;
+}
+.btnshopnow{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #3E3F43;
+    border: 1px solid #3E3F43;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 20%;
+    float: right;
+}
+/* .ct1{
+    background: #defcfc;
+}
+.ct2{
+    background: #cbf1f5;
+} */
+.ct1{
+    background: #C8E4FF;
+}
+.ct2{
+    background: #B7FFFB;
+}
+.ct3{
+    background: #A8DCEC;
+}
+.px{
+    padding-left:5rem !important;
+    padding-right:5rem !important;
+}
+.imagecategory{
+    height: 180px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

@@ -1,0 +1,46 @@
+body{
+    font-family: Nunito;
+    /* background:url(https://wallpaperplay.com/walls/full/7/8/c/228173.jpg); */
+    background:url(loginwallpaper.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+.form-control{
+    background: #E8FBFD;
+    border-radius: 10px;
+    font-style: normal;
+    /* font-weight: bold; */
+    font-size: 15px;
+    line-height: 33px;
+    letter-spacing: 0.15em;
+    border:none;
+    color:black;
+}
+.form-control::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+}
+.registerhref{
+    font-style: normal;
+    /* font-weight: bold; */
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.15em;
+
+    color: #000000;
+}
+.registerhref:hover{
+    text-decoration: none;
+}   
+.containerlogin{
+    background-color: #fafafa;
+    border-radius: 20px;
+    margin-top: 3%;
+}
+.is-invalid{
+    border: 1px solid #dc3545!important;
+}
+@media (min-width: 990px){
+    .formlogin{
+        margin-top: 10%!important;
+    }
+}

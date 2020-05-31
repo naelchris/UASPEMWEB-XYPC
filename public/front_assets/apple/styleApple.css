@@ -1,0 +1,37 @@
+.title{
+    font-weight: bolder;
+    font-size: 25px;
+}
+#productnav{
+    transition: all 2s;
+    backdrop-filter: saturate(180%) blur(20px);
+    background-color: rgba(255,255,255,0.72);
+    /* transition: background-color 0.5s cubic-bezier(0.28, 0.11, 0.32, 1); */
+}
+.fadein{
+    opacity: 0;
+    transition: 1s;
+    transition-delay: 1s;
+}
+.aboutair{
+    background-color: #fafafa;
+    border-radius: 30px;
+}
+@media (max-width:990px){
+    .mbpic{
+        margin:0!important;
+    }
+}
+body{
+    font-family: Nunito, sans-serif;
+}
+hr{
+    border: 0;
+    clear:both;
+    width: 30%;               
+    background-color:black;
+    height: 1px;
+}
+.fade {
+    opacity: 1;
+}

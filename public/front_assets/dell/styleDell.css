@@ -1,0 +1,72 @@
+body{
+    font-family: Nunito, sans-serif;
+}
+hr{
+    border: 0;
+    clear:both;
+    width: 30%;               
+    background-color:black;
+    height: 1px;
+}
+.fade {
+    opacity: 1;
+}
+.title{
+    font-weight: bolder;
+    font-size: 25px;
+}
+#productnav{
+    transition: all 2s;
+    backdrop-filter: saturate(180%) blur(20px);
+    background-color: rgba(255,255,255,0.72);
+    /* transition: background-color 0.5s cubic-bezier(0.28, 0.11, 0.32, 1); */
+}
+.midtitle{
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+}
+.midtitlecontainer{
+    width: 100%;
+}
+.midtext{
+    text-align: center;
+}
+.midtextcontainer{
+    width: 100%;
+}
+@media (max-width: 990px){
+    .midtitle{
+        font-size: 25px;
+    }
+}
+.fadein{
+    opacity: 0;
+    transition: 1s;
+    transition-delay: 1s;
+}
+.dellxpstitle{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.dellxpsdesc{
+    margin-top:50px;
+    margin-left:100px;
+    margin-right:100px;
+    font-size: 22px;
+    text-align: justify;
+}
+@media (max-width:990px){
+    .dellxpsdesc{
+        margin:0;
+    }
+}
+.fa-chevron-left, .fa-chevron-right{
+    cursor:pointer;
+}
+.brandname{
+    margin:0;
+    display:inline-block;
+    font-weight: bolder;
+}
