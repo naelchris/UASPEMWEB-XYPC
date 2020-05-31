@@ -6,8 +6,8 @@
     <title>Dell</title>
     
     @include('front.layouts.css_js')
-    <link rel="stylesheet" href="{{url('front_assets/navbar/styleNavbar.css')}}">
-    <link rel="stylesheet" href="{{url('front_assets/dell/styleDell.css')}}">
+    <link rel="stylesheet" href="https://glacial-falls-89341.herokuapp.com/front_assets/navbar/styleNavbar.css">
+    <link rel="stylesheet" href="https://glacial-falls-89341.herokuapp.com/front_assets/dell/styleDell.css">
 </head>
 <body>
     

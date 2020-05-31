@@ -5,7 +5,7 @@
     History
 @endsection
 @section('content')
-<link rel="stylesheet" href="{{url('front_assets/history/styleHistory.css')}}">
+<link rel="stylesheet" href="https://glacial-falls-89341.herokuapp.com/front_assets/history/styleHistory.css">
 <div class="container">
     
 

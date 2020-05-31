@@ -6,8 +6,8 @@
     <title>Apple</title>
     
     @include('front.layouts.css_js')
-    <link rel="stylesheet" href="{{url('front_assets/navbar/styleNavbar.css')}}">
-    <link rel="stylesheet" href="{{url('front_assets/apple/styleApple.css')}}">
+    <link rel="stylesheet" href="https://glacial-falls-89341.herokuapp.com/front_assets/navbar/styleNavbar.css">
+    <link rel="stylesheet" href="https://glacial-falls-89341.herokuapp.com/front_assets/apple/styleApple.css">
 </head>
 <body>
     

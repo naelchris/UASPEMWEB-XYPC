@@ -6,8 +6,8 @@
     <title>Microsoft</title>
     
     @include('front.layouts.css_js')
-    <link rel="stylesheet" href="{{url('front_assets/navbar/styleNavbar.css')}}">
-    <link rel="stylesheet" href="{{url('front_assets/microsoft/styleSurface.css')}}">
+    <link rel="stylesheet" href="https://glacial-falls-89341.herokuapp.com/front_assets/navbar/styleNavbar.css">
+    <link rel="stylesheet" href="https://glacial-falls-89341.herokuapp.com/front_assets/microsoft/styleSurface.css">
 </head>
 <body>
     
