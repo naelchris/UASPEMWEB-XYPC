@@ -19,6 +19,7 @@ view products
                         <thead>
                         <tr>
                             <th>ID</th>
+                            <th>User</th>
                             <th>Product</th>
                             <th>Quantity</th>
                             <th>Address</th>
@@ -31,7 +32,7 @@ view products
                             @foreach ($order as $orders)
                         <tr>
                         <td>{{$orders->id}}</td>
-                        
+                        <td>{{$orders->user->name}}</td>
                         {{-- dia bisa lebih dari satu product jadi ada for --}}
                         <td>
                             @foreach ($orders->products as $item)
