@@ -19,7 +19,6 @@ view products
                         <thead>
                         <tr>
                             <th>ID</th>
-                            <th>User</th>
                             <th>Product</th>
                             <th>Quantity</th>
                             <th>Address</th>
