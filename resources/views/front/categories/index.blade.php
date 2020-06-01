@@ -77,34 +77,69 @@
     </div>
 </div>
 <script>
+    // function searchPrice(){
+    //     var $radios = $('input:radio[name=exampleRadios]');
+    //     $radios.filter('[value=allproduct]').prop('checked', true);
+    //     var low = parseInt( $('#lowestprice').val() );
+    //     var high = parseInt( $('#highestprice').val() );
+    //     $('.category').hide();
+    //     if(!isNaN(low) && !isNaN(high)){
+    //         for(i = 0; i < key; i++){
+    //             price = parseInt( $('#price'+i).val() );
+    //             if(price >= low && price <= high){
+    //                 $('.price-'+i).fadeIn(1000);
+    //             }
+    //         }
+    //     }
+    //     else if(!isNaN(high)){
+    //         for(i = 0; i < key; i++){
+    //             price = parseInt( $('#price'+i).val() );
+    //             if(price <= high){
+    //                 // console.log(price + " < " + high);
+    //                 $('.price-'+i).fadeIn(1000);
+    //             }
+    //         }
+    //     }
+    //     else if(!isNaN(low)){
+    //         for(i = 0; i < key; i++){
+    //             price = parseInt( $('#price'+i).val() );
+    //             if(price >= low){
+    //                 // console.log(price + " > " + low);
+    //                 $('.price-'+i).fadeIn(1000);
+    //             }
+    //         }
+    //     }
+    //     else{
+    //         $('.category').fadeIn(1000);
+    //     }
+    // }
+
     function searchPrice(){
         var $radios = $('input:radio[name=exampleRadios]');
         $radios.filter('[value=allproduct]').prop('checked', true);
-        var low = parseInt( $('#lowestprice').val() );
-        var high = parseInt( $('#highestprice').val() );
+        var low = document.getElementById("lowestprice").value;
+        var high = document.getElementById("highestprice").value;
         $('.category').hide();
-        if(!isNaN(low) && !isNaN(high)){
+        if(low != '' && high != ''){
             for(i = 0; i < key; i++){
-                price = parseInt( $('#price'+i).val() );
+                price = $('#price'+i).val();
                 if(price >= low && price <= high){
                     $('.price-'+i).fadeIn(1000);
                 }
             }
         }
-        else if(!isNaN(high)){
+        else if(high != ''){
             for(i = 0; i < key; i++){
-                price = parseInt( $('#price'+i).val() );
+                price = $('#price'+i).val();
                 if(price <= high){
-                    // console.log(price + " < " + high);
                     $('.price-'+i).fadeIn(1000);
                 }
             }
         }
-        else if(!isNaN(low)){
+        else if(low != ''){
             for(i = 0; i < key; i++){
-                price = parseInt( $('#price'+i).val() );
+                price = $('#price'+i).val();
                 if(price >= low){
-                    // console.log(price + " > " + low);
                     $('.price-'+i).fadeIn(1000);
                 }
             }
@@ -112,7 +147,9 @@
         else{
             $('.category').fadeIn(1000);
         }
+
     }
+
     function changecategory(brand){
         document.getElementById("lowestprice").value = "";
         document.getElementById("highestprice").value = "";
