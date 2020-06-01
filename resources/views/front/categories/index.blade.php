@@ -6,7 +6,7 @@
 
 @section('content')
 <link rel="stylesheet" href="front_assets/category/styleCategory.css">
-<!-- <script> var key = 0;</script> -->
+<script> var key = 0;</script>
 <div class="container">
     @if (Session::has('msg'))
         <div class="alert alert-success mt-5" role="alert">
