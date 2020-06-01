@@ -9,7 +9,7 @@ use PHPUnit\Framework\Constraint\FileExists;
 class UserListController extends Controller
 {
     public function index(){
-        $user = user::all();
+        $user = User::all();
         return view('admin.users.index',['users'=>$user]);
        
     }

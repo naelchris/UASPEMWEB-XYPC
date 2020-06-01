@@ -9,7 +9,7 @@ use PHPUnit\Framework\Constraint\FileExists;
 class ProductController extends Controller
 {
     public function index(){
-        $product = product::all();
+        $product = Product::all();
         return view('admin.products.index',['products'=>$product]);
        
     }
