@@ -35,7 +35,7 @@ class CategoriesController extends Controller
     public function searchProduct(Request $request){
         $name = "%" . $request->name . "%";
         $product = DB::table('products')
-        ->where('name', 'like', $name)
+        ->where('name', 'ilike', $name)
         ->get();
         $brand = Product::select('category')->distinct()->get();
         if(count($product) == 0){
