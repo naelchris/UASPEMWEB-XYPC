@@ -38,7 +38,7 @@ class UserListController extends Controller
         session()->flash('msg','user has been deleted');
 
         //redirect
-        return redirect('admin/users');
+        return redirect('/admin/users');
     }
 
     public function show($id){
