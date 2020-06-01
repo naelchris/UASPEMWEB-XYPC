@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\user;
+use App\User;
 use PHPUnit\Framework\Constraint\FileExists;
 
 class UserListController extends Controller
