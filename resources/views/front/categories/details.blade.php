@@ -18,8 +18,11 @@
                 @csrf
            @if($product->stock > 0)
                 <div class="form-group">
-                <label for="qty">Product stock : {{$product->stock}}</label>
-                <input type="number" min="1" max="{{$product->stock}}" class="form-control" name="qty" value="" placeholder="Quantity">
+                    <label for="qty">Product stock : {{$product->stock}}</label>
+                    <input type="number" min="1" max="{{$product->stock}}" class="form-control @error('qty') is-invalid @enderror" name="qty" value="" placeholder="Quantity">
+                    <div class="invalid-feedback">
+                        @error('qty') {{$message}} @enderror
+                    </div>
                 </div>
 
             @else

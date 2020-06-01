@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://glacial-falls-89341.herokuapp.com/front_assets/apple/styleApple.css">
 </head>
 <body>
+  <style>a:hover{ text-decoration:none; }</style>
     
     <!-- https://assets3.lottiefiles.com/private_files/lf30_WdTEui.json -->
     <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background: #EEF3FF;background: #EEF3FF;position:relative;z-index: 2;">

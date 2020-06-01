@@ -63,10 +63,10 @@ Category
                     @endforeach
                     <form class="mt-5">
                         <div class="form-group">
-                            <input type="text" class="form-control" id="lowestprice" onchange="searchPrice()" name="low" placeholder="Lowest Price">
+                            <input type="number" class="form-control" id="lowestprice" onchange="searchPrice()" name="low" placeholder="Lowest Price">
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" id="highestprice" onchange="searchPrice()" name="high" placeholder="Highest Price">
+                            <input type="number" class="form-control" id="highestprice" onchange="searchPrice()" name="high" placeholder="Highest Price">
                         </div>
                     </form>
                 

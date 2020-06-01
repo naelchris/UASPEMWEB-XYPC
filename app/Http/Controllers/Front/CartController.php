@@ -28,6 +28,9 @@ class CartController extends Controller
     public function cart(Request $request){
         //find product
         $product = Product::find($request->id);
+        $validatedData = $request->validate([
+            'qty' => 'required|min:1',
+        ]);
         //add cart
         $id = $request->id;
         $name = $request->name;
