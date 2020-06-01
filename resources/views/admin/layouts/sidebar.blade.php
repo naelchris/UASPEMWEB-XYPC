@@ -3,7 +3,7 @@
 <div class="sidebar-wrapper">
     <div class="logo">
         <a href="" class="simple-text">
-            TwitShop Admin
+            XYPC Admin
         </a>
     </div>
 
