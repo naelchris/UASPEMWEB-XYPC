@@ -4,7 +4,7 @@
     Details
 @endsection
 @section('content')
-<link rel="stylesheet" href="https://glacial-falls-89341.herokuapp.com/front_assets/details/styleDetails.css">
+<link rel="stylesheet" href="{{url('front_assets/details/styleDetails.css')}}">
 <div class="container">
     <div class="row mt-5" style="background-color: #fafafa;border-radius: 10px;">
         <div class="col-lg-6 p-5">
