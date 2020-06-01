@@ -22,7 +22,7 @@ class OrderController extends Controller
         session()->flash('msg','your order has been confirmed');
 
         //redirect
-        return redirect('/admin/orders');
+        return redirect('admin/orders');
     }
 
     public function pending($id){
@@ -33,7 +33,7 @@ class OrderController extends Controller
         //session
         session()->flash('msg','your order is now pended');
         //redirect
-        return redirect('/admin/orders');
+        return redirect('admin/orders');
 
 
         return $id;
